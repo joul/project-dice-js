@@ -11,6 +11,10 @@
      var image2 = document.querySelectorAll("img")[1];
      image2.setAttribute("src",RandomImage2);
 
+     //      var RandomNumber2 = Math.floor(Math.random() * 6) + 1;
+     //      var RandomImage2 = "images/dice"+RandomNumber2+".png";
+     //      var image2 = document.querySelectorAll("img")[1].setAttribute("src",RandomImage2);
+
      //Header Display
      if (RandomNumber1 > RandomNumber2){
        document.querySelector("h1").innerHTML = "Player 1 Wins!!!";
