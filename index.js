@@ -21,3 +21,5 @@
      else {
        document.querySelector("h1").innerHTML = "DRAW!!!";
      }
+     
+     //Using DOM(Document Object Model) to manipulate HTML Elements
